@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+    cursor: url("foot.png"), auto;
+
+  }
+  
+body {
+    background-color: rgb(31, 31, 31);
+    display: block;
+    height: 100%; /* Ensure body takes full height */
+    width: 100%; /* Ensure body takes full height */
+
+}
+  
+  button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 4rem;
+    width: 10rem;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 5px black;
+    background-color: white;
+  }
+  
+.message {
+    color: white;
+    font-family: "Lexend", sans-serif;
+    margin: 10rem;
+}
+
+.footprint {
+    position: absolute;
+    width: 50px; /* Adjust the footprint size */
+    height: 50px; /* Adjust the footprint size */
+    background-image: url('https://png.pngtree.com/png-clipart/20220613/original/pngtree-foot-and-background-silhouette-imprint-png-image_7989424.png'); /* Your footprint image */
+    background-size: cover;
+    pointer-events: none;
+  }
+  
